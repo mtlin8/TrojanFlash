@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+.set-information-container {
+	color: #000F5C;
+	font-family: 'Inter', sans-serif;
+	font-size: calc( 11px + (14 - 11) * (100vw - 400px) / (800 - 400) );
+}
+
+.set-information-title {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+.title-author-mode {
+	display: flex;
+	flex-direction: column;
+}
+
+.title-author-mode > p {
+	margin: 5px 0;
+	font-size: calc( 8px + (10 - 8) * (100vw - 400px) / (800 - 400) );
+}
+
+.set-displayer {
+	background: #FFECDD;
+	width: 90vw;
+	height: 50vh;
+	margin: auto;
+}

@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+.card-block-container {
+	display: flex;
+	background: #FFECDD;
+	width: 50vw;
+	min-height: 100px;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	color: #000F5C;
+}
+
+.card-block-text {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	gap: 5%;
+	font-size: calc( 11px + (14 - 11) * (100vw - 400px) / (800 - 400) );
+}
+.card-block-phrase {
+	min-width: 5%;
+	border-right: 0.5px solid #FD9751;
+	padding: 5% 5%;
+}
+
+.card-block-definition {
+	padding: 5% 5%;
+}

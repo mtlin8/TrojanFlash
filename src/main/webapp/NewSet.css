@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body, .create-form {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	align-items: center;
+}
+.getSetInfo>input[type="text"] {
+	display: block;
+	font-size: inherit;
+	border: none;
+  	outline: none;
+  	background: none;
+  	width: 60%;
+  	border-bottom: 2px solid #fedac2;
+}
+
+.getSetInfo>input[type="text"]:focus {
+	border-bottom: 2px solid #FD9751;
+}
+
+p>input[type="text"] {
+	display: block;
+	font-size: inherit;
+	border: none;
+  	outline: none;
+  	background: none;
+  	width: 60%;
+}
+
+label {
+	font-size: calc( 8px + (11 - 8) * (100vw - 400px) / (800 - 400) );
+	color: #000F5C;
+	margin: 5px 0;
+	font-weight: 300;
+	align-self: start;
+}
+
+.getSetInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 50vw;
+	margin: auto;
+}
+
+.subtitle-font {
+	align-self: start;
+	padding-left: 20%;
+}
+
+.btngroup {
+	align-self: start;
+	width: 40%;
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+
+#card-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

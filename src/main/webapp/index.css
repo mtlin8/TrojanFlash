@@ -1,0 +1,84 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0% 0%;
+}
+
+.nemo {
+	float: right;
+	line-height: 50px;
+}
+.justifyC {
+	position: "left";
+}
+.part {
+	float: left;
+	display: flex;
+	white-space: nowrap;
+}
+
+.login {
+	 width: 40%; 
+	 float: left; 
+	 margin: 50px;
+	 padding: 16px;
+}
+
+.register {
+	 width: 40%; 
+	 float: left; 
+	 margin:10px;
+	 padding: 16px;
+}
+
+
+input[type=email], input[type=password], input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.signed {
+	 background-color: #bb0000;
+	 justify-content: center;
+}
+
+.selection {
+	width: 15%;
+	height: 30px;
+	  
+}
+.search {
+	width: 40%;
+	background-color: #e8effe;
+	height: 30px;
+}
+.search_button {
+    width: 50px;
+    background-color: #bb0200;
+    height: 35px;
+}
+.ordering {
+	width: 17%;
+	height: 45px;
+}
+.formS {
+	display:flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}

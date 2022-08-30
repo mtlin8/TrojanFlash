@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+.rounded-xl {
+   border-radius: 2rem;
+}
